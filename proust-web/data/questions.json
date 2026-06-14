@@ -1,0 +1,1234 @@
+[
+  {
+    "id": 1,
+    "order": 1,
+    "slug": "motto",
+    "question": "Ваш девиз?",
+    "category": "opening",
+    "active": true,
+    "answer_count": 5,
+    "answers": [
+      {
+        "id": 1,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Любимое изречение - то, которое нельзя резюмировать (или пересказать вкратце), поскольку его наиболее простое выражение представляет собой всё, что есть самого лучшего, красивого и великого в природе.",
+        "background_text": "Любимое изречение - то, которое нельзя резюмировать (или пересказать вкратце), поскольку его наиболее простое выражение представляет собой всё, что есть самого лучшего, красивого и великого в природе.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Ваше любимое изречение?",
+        "source_note": "Оригинальный вопрос был про любимое изречение.",
+        "use_in_background": true
+      },
+      {
+        "id": 2,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Я предпочитаю его не раскрывать, чтобы он не принёс мне несчастья.",
+        "background_text": "Я предпочитаю его не раскрывать, чтобы он не принёс мне несчастья.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 49,
+        "author": "Yayoi Kusama",
+        "answer_text": "The sun, the moon, the earth and stars are also polka dots. They cannot exist alone. Each and every one of us are polka dots. We gather and weave a beautiful pattern of polka dots.",
+        "background_text": "The sun, the moon, the earth and stars are also polka dots. They cannot exist alone. Each and every one of us are polka dots. We gather and weave a beautiful pattern of polka dots.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 78,
+        "author": "Olivia de Havilland",
+        "answer_text": "Dominus Fortissima Turris.",
+        "background_text": "Dominus Fortissima Turris.",
+        "language": "la",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "В источнике дан перевод: God is the strongest tower / God is my tower of strength.",
+        "use_in_background": true
+      },
+      {
+        "id": 87,
+        "author": "Baz Luhrmann",
+        "answer_text": "A life lived in fear is a life half lived.",
+        "background_text": "A life lived in fear is a life half lived.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "order": 2,
+    "slug": "current_state",
+    "question": "Ваше состояние духа в настоящий момент?",
+    "category": "opening",
+    "active": true,
+    "answer_count": 5,
+    "answers": [
+      {
+        "id": 3,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Досада, что пришлось так долго размышлять о себе, чтобы ответить на все эти вопросы.",
+        "background_text": "Досада, что пришлось так долго размышлять о себе, чтобы ответить на все эти вопросы.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 42,
+        "author": "Yayoi Kusama",
+        "answer_text": "Feeling the final day of my life approaching, I think about becoming a great person, a great artist, and leaving great artworks in this world. I spend every day trying to make all possible efforts that one person can, and I want to do so until this life expires. This is everything that my art has reached. I will keep my struggle to send the message of Yayoi Kusama to future generations until the end of my life.",
+        "background_text": "Feeling the final day of my life approaching, I think about becoming a great person, a great artist, and leaving great artworks in this world. I spend every day trying to make all possible efforts that one person can, and I want to do so until this life expires. This is everything that my art has reached. I will keep my struggle to send the message of Yayoi Kusama to future generations until the end of my life.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 52,
+        "author": "Cyndi Lauper",
+        "answer_text": "Sunny with a chance of rain.",
+        "background_text": "Sunny with a chance of rain.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 60,
+        "author": "Donatella Versace",
+        "answer_text": "Excited, energized, impatient.",
+        "background_text": "Excited, energized, impatient.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 79,
+        "author": "Baz Luhrmann",
+        "answer_text": "I’m oscillating between the joys of playing hooky from responsibilities and a desperate need to take on new creative responsibilities.",
+        "background_text": "I’m oscillating between the joys of playing hooky from responsibilities and a desperate need to take on new creative responsibilities.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "order": 3,
+    "slug": "favorite_color",
+    "question": "Ваш любимый цвет?",
+    "category": "taste",
+    "active": true,
+    "answer_count": 2,
+    "answers": [
+      {
+        "id": 4,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Я люблю все цвета.",
+        "background_text": "Я люблю все цвета.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Ваш любимый цвет и цветок?",
+        "source_note": "Ответ разделен между цветом и цветком.",
+        "use_in_background": true
+      },
+      {
+        "id": 5,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Красота заключается не в одном цвете, а в их гармонии.",
+        "background_text": "Красота заключается не в одном цвете, а в их гармонии.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "order": 4,
+    "slug": "favorite_occupation",
+    "question": "Какое Ваше любимое занятие?",
+    "category": "taste",
+    "active": true,
+    "answer_count": 5,
+    "answers": [
+      {
+        "id": 6,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Читать, мечтать, заниматься поэзией, историей, посещать театр.",
+        "background_text": "Читать, мечтать, заниматься поэзией, историей, посещать театр.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 7,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Любить.",
+        "background_text": "Любить.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 61,
+        "author": "Donatella Versace",
+        "answer_text": "The one I have right now.",
+        "background_text": "The one I have right now.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 73,
+        "author": "Olivia de Havilland",
+        "answer_text": "Doing cryptic crosswords or, equally, reading tales of mystery and imagination.",
+        "background_text": "Doing cryptic crosswords or, equally, reading tales of mystery and imagination.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 80,
+        "author": "Baz Luhrmann",
+        "answer_text": "I don’t know, what I do is all I’ve ever done.",
+        "background_text": "I don’t know, what I do is all I’ve ever done.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "order": 5,
+    "slug": "desired_ability",
+    "question": "Способность, которой вам хотелось бы обладать?",
+    "category": "aspiration",
+    "active": true,
+    "answer_count": 6,
+    "answers": [
+      {
+        "id": 8,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Сила воли и умение очаровывать.",
+        "background_text": "Сила воли и умение очаровывать.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 41,
+        "author": "Yayoi Kusama",
+        "answer_text": "The talent to be able to paint forever.",
+        "background_text": "The talent to be able to paint forever.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 57,
+        "author": "Владимир Познер",
+        "answer_text": "Умением рисовать.",
+        "background_text": "Умением рисовать.",
+        "language": "ru",
+        "source": "https://pozneronline.ru/2010/07/5758",
+        "source_question": "Каким бы талантом вы хотели обладать?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 59,
+        "author": "Donatella Versace",
+        "answer_text": "To sing. I have been surrounded by the most incredible singers my whole life, from Madonna to Prince, Lady Gaga, J.Lo, Beyoncé. To be able to have their talent for just one second would be incredible.",
+        "background_text": "To sing. I have been surrounded by the most incredible singers my whole life, from Madonna to Prince, Lady Gaga, J.Lo, Beyoncé. To be able to have their talent for just one second would be incredible.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 71,
+        "author": "Olivia de Havilland",
+        "answer_text": "The gift of coolheadedness or the ability to tap-dance.",
+        "background_text": "The gift of coolheadedness or the ability to tap-dance.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 88,
+        "author": "Baz Luhrmann",
+        "answer_text": "Beach; the ability to spell.",
+        "background_text": "Beach; the ability to spell.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "order": 6,
+    "slug": "desired_self",
+    "question": "Каким Вы хотели бы быть?",
+    "category": "aspiration",
+    "active": true,
+    "answer_count": 2,
+    "answers": [
+      {
+        "id": 9,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Поскольку этот вопрос неактуален, я бы предпочёл не отвечать на него. В то же самое время, я не отказался бы быть Плинием Младшим.",
+        "background_text": "Поскольку этот вопрос неактуален, я бы предпочёл не отвечать на него. В то же самое время, я не отказался бы быть Плинием Младшим.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Если не собой, то кем Вам хотелось бы быть?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 10,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Самим собой - таким, каким меня хотели бы видеть люди, которыми я восхищаюсь.",
+        "background_text": "Самим собой - таким, каким меня хотели бы видеть люди, которыми я восхищаюсь.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "order": 7,
+    "slug": "dream_of_happiness",
+    "question": "Какова Ваша мечта о счастье?",
+    "category": "values",
+    "active": true,
+    "answer_count": 6,
+    "answers": [
+      {
+        "id": 11,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Жить с людьми, которых я люблю, в окружении красивой природы, среди множества книг и музыки, и неподалёку от французского театра.",
+        "background_text": "Жить с людьми, которых я люблю, в окружении красивой природы, среди множества книг и музыки, и неподалёку от французского театра.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Ваша идея о счастье?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 12,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Боюсь, что она недостаточно возвышенна, к тому же боюсь разрушить её словами.",
+        "background_text": "Боюсь, что она недостаточно возвышенна, к тому же боюсь разрушить её словами.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 40,
+        "author": "Yayoi Kusama",
+        "answer_text": "Happiness is when I make a good artwork.",
+        "background_text": "Happiness is when I make a good artwork.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 50,
+        "author": "Cyndi Lauper",
+        "answer_text": "Long walks with my husband. Being with my family. Making music, and writing when songs just fall together. And maybe a cannoli. Just one.",
+        "background_text": "Long walks with my husband. Being with my family. Making music, and writing when songs just fall together. And maybe a cannoli. Just one.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 58,
+        "author": "Владимир Познер",
+        "answer_text": "Полностью выразить себя в любви, в детях и в работе.",
+        "background_text": "Полностью выразить себя в любви, в детях и в работе.",
+        "language": "ru",
+        "source": "https://pozneronline.ru/2010/07/5758",
+        "source_question": "Что для вас предел счастья?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 82,
+        "author": "Baz Luhrmann",
+        "answer_text": "To love and be loved in return.",
+        "background_text": "To love and be loved in return.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "order": 8,
+    "slug": "friends_qualities",
+    "question": "Что Вы больше всего цените в Ваших друзьях?",
+    "category": "values",
+    "active": true,
+    "answer_count": 3,
+    "answers": [
+      {
+        "id": 13,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Нежность по отношению ко мне, при том, что их личности настолько утончённы, что их нежностью стоит дорожить.",
+        "background_text": "Нежность по отношению ко мне, при том, что их личности настолько утончённы, что их нежностью стоит дорожить.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 65,
+        "author": "Donatella Versace",
+        "answer_text": "Love, compassion, concern, humor, intelligence.",
+        "background_text": "Love, compassion, concern, humor, intelligence.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 84,
+        "author": "Baz Luhrmann",
+        "answer_text": "Loyalty.",
+        "background_text": "Loyalty.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "order": 9,
+    "slug": "favorite_writers",
+    "question": "Ваши любимые писатели?",
+    "category": "culture",
+    "active": true,
+    "answer_count": 5,
+    "answers": [
+      {
+        "id": 14,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Жорж Санд, Огюстен Тьерри.",
+        "background_text": "Жорж Санд, Огюстен Тьерри.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 15,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Сегодня это Анатоль Франс и Пьер Лоти.",
+        "background_text": "Сегодня это Анатоль Франс и Пьер Лоти.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 44,
+        "author": "Yayoi Kusama",
+        "answer_text": "Takuboku Ishikawa.",
+        "background_text": "Takuboku Ishikawa.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "Who is your favorite writer?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 54,
+        "author": "Cyndi Lauper",
+        "answer_text": "The Brontë sisters, and I love Maya Angelou, Alice Walker, Lisa See, Haruki Murakami, Patti Smith, and Charles Dickens.",
+        "background_text": "The Brontë sisters, and I love Maya Angelou, Alice Walker, Lisa See, Haruki Murakami, Patti Smith, and Charles Dickens.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 83,
+        "author": "Baz Luhrmann",
+        "answer_text": "Huxley, Garcia Marquez, Shakespeare, Tolstoy, Moliere, Fitzgerald, to name but a few.",
+        "background_text": "Huxley, Garcia Marquez, Shakespeare, Tolstoy, Moliere, Fitzgerald, to name but a few.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "order": 10,
+    "slug": "favorite_poets",
+    "question": "Ваши любимые поэты?",
+    "category": "culture",
+    "active": true,
+    "answer_count": 2,
+    "answers": [
+      {
+        "id": 16,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Мюссе.",
+        "background_text": "Мюссе.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 17,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Бодлер и Альфред де Виньи.",
+        "background_text": "Бодлер и Альфред де Виньи.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "order": 11,
+    "slug": "favorite_literary_hero",
+    "question": "Любимый литературный герой?",
+    "category": "culture",
+    "active": true,
+    "answer_count": 6,
+    "answers": [
+      {
+        "id": 18,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Те из романов и лирики, которые скорее выражают идеал, чем служат примером для подражания.",
+        "background_text": "Те из романов и лирики, которые скорее выражают идеал, чем служат примером для подражания.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Каковы Ваши любимые литературные персонажи?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 19,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Гамлет.",
+        "background_text": "Гамлет.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 45,
+        "author": "Yayoi Kusama",
+        "answer_text": "I don’t have one.",
+        "background_text": "I don’t have one.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "Who is your favorite hero of fiction?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 55,
+        "author": "Владимир Познер",
+        "answer_text": "Д’Артаньян.",
+        "background_text": "Д’Артаньян.",
+        "language": "ru",
+        "source": "https://pozneronline.ru/2010/07/5758",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 66,
+        "author": "Donatella Versace",
+        "answer_text": "The Medusa.",
+        "background_text": "The Medusa.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "Who is your favorite hero of fiction?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 85,
+        "author": "Baz Luhrmann",
+        "answer_text": "I love heroic characters who embody the Greek quality of pothos.",
+        "background_text": "I love heroic characters who embody the Greek quality of pothos.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "Who is your favorite hero of fiction?",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "order": 12,
+    "slug": "favorite_composers",
+    "question": "Любимые композиторы?",
+    "category": "culture",
+    "active": true,
+    "answer_count": 2,
+    "answers": [
+      {
+        "id": 20,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Моцарт, Гуно.",
+        "background_text": "Моцарт, Гуно.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Ваши любимые художники и композиторы?",
+        "source_note": "Ответ разделен между художниками и композиторами.",
+        "use_in_background": true
+      },
+      {
+        "id": 21,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Бетховен, Вагнер, Шуман.",
+        "background_text": "Бетховен, Вагнер, Шуман.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "order": 13,
+    "slug": "favorite_artists",
+    "question": "Любимые художники?",
+    "category": "culture",
+    "active": true,
+    "answer_count": 2,
+    "answers": [
+      {
+        "id": 22,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Мейсонье.",
+        "background_text": "Мейсонье.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Ваши любимые художники и композиторы?",
+        "source_note": "Ответ разделен между художниками и композиторами.",
+        "use_in_background": true
+      },
+      {
+        "id": 23,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Леонардо да Винчи, Рембрандт.",
+        "background_text": "Леонардо да Винчи, Рембрандт.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "order": 14,
+    "slug": "real_life_heroes",
+    "question": "Любимые герои в реальной жизни?",
+    "category": "culture",
+    "active": true,
+    "answer_count": 4,
+    "answers": [
+      {
+        "id": 24,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Нечто среднее между Сократом, Периклом, Магометом, Мюссе, Плинием Младшим и Огюстеном Тьерри.",
+        "background_text": "Нечто среднее между Сократом, Периклом, Магометом, Мюссе, Плинием Младшим и Огюстеном Тьерри.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 25,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Месье Дарлю, месье Бутру.",
+        "background_text": "Месье Дарлю, месье Бутру.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 46,
+        "author": "Yayoi Kusama",
+        "answer_text": "Myself.",
+        "background_text": "Myself.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "Who are your heroes in real life?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 67,
+        "author": "Donatella Versace",
+        "answer_text": "Kids on the street. That’s where you find real energy.",
+        "background_text": "Kids on the street. That’s where you find real energy.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "Who are your heroes in real life?",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "order": 15,
+    "slug": "favorite_names",
+    "question": "Любимые имена?",
+    "category": "culture",
+    "active": true,
+    "answer_count": 5,
+    "answers": [
+      {
+        "id": 26,
+        "author": "Marcel Proust, 19",
+        "answer_text": "В каждый данный момент у меня только одно любимое имя.",
+        "background_text": "В каждый данный момент у меня только одно любимое имя.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 51,
+        "author": "Cyndi Lauper",
+        "answer_text": "Domenica (that’s my mother’s real name), Sparkle (my old dog), Declyn, David. Now, I can say Cynthia. At first I didn’t like Cynthia until my mother explained why she named me that. It was after the English goddess of the moon. How can you go wrong with that?",
+        "background_text": "Domenica (that’s my mother’s real name), Sparkle (my old dog), Declyn, David. Now, I can say Cynthia. At first I didn’t like Cynthia until my mother explained why she named me that. It was after the English goddess of the moon. How can you go wrong with that?",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 68,
+        "author": "Donatella Versace",
+        "answer_text": "Allegra, Daniel.",
+        "background_text": "Allegra, Daniel.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 72,
+        "author": "Olivia de Havilland",
+        "answer_text": "Alexandra and Alexis.",
+        "background_text": "Alexandra and Alexis.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 89,
+        "author": "Baz Luhrmann",
+        "answer_text": "Ones that truly evoke people’s character.",
+        "background_text": "Ones that truly evoke people’s character.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "order": 16,
+    "slug": "forgiven_vices",
+    "question": "К каким порокам Вы чувствуете наибольшее снисхождение?",
+    "category": "values",
+    "active": true,
+    "answer_count": 2,
+    "answers": [
+      {
+        "id": 27,
+        "author": "Marcel Proust, 16",
+        "answer_text": "К частной жизни гениев.",
+        "background_text": "К частной жизни гениев.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 28,
+        "author": "Marcel Proust, 19",
+        "answer_text": "К тем, которые мне понятны.",
+        "background_text": "К тем, которые мне понятны.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "order": 17,
+    "slug": "most_hated",
+    "question": "Что Вы больше всего ненавидите?",
+    "category": "shadow",
+    "active": true,
+    "answer_count": 6,
+    "answers": [
+      {
+        "id": 29,
+        "author": "Marcel Proust, 16",
+        "answer_text": "К людям, которые не чувствуют, что есть добро, которые пренебрегают счастьем любви.",
+        "background_text": "К людям, которые не чувствуют, что есть добро, которые пренебрегают счастьем любви.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "К чему Вы испытываете отвращение?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 30,
+        "author": "Marcel Proust, 19",
+        "answer_text": "То дурное, что есть во мне.",
+        "background_text": "То дурное, что есть во мне.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 47,
+        "author": "Yayoi Kusama",
+        "answer_text": "Solitude.",
+        "background_text": "Solitude.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is it that you most dislike?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 69,
+        "author": "Donatella Versace",
+        "answer_text": "Intolerance.",
+        "background_text": "Intolerance.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is it that you most dislike?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 76,
+        "author": "Olivia de Havilland",
+        "answer_text": "The deception and exploitation of the naive and defenseless.",
+        "background_text": "The deception and exploitation of the naive and defenseless.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is it that you most dislike?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 86,
+        "author": "Baz Luhrmann",
+        "answer_text": "Mediocrity and boredom.",
+        "background_text": "Mediocrity and boredom.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is it that you most dislike?",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "order": 18,
+    "slug": "main_flaw",
+    "question": "Что является Вашим главным недостатком?",
+    "category": "shadow",
+    "active": true,
+    "answer_count": 1,
+    "answers": [
+      {
+        "id": 31,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Неумение, неспособность «желать».",
+        "background_text": "Неумение, неспособность «желать».",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "order": 19,
+    "slug": "main_trait",
+    "question": "Ваша самая характерная черта?",
+    "category": "identity",
+    "active": true,
+    "answer_count": 4,
+    "answers": [
+      {
+        "id": 32,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Жажда быть любимым, а точнее, быть обласканным и избалованным, скорее чем служить предметом восхищения.",
+        "background_text": "Жажда быть любимым, а точнее, быть обласканным и избалованным, скорее чем служить предметом восхищения.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 56,
+        "author": "Владимир Познер",
+        "answer_text": "Терпение.",
+        "background_text": "Терпение.",
+        "language": "ru",
+        "source": "https://pozneronline.ru/2010/07/5758",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 62,
+        "author": "Donatella Versace",
+        "answer_text": "That I get what I want.",
+        "background_text": "That I get what I want.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is your most marked characteristic?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 81,
+        "author": "Baz Luhrmann",
+        "answer_text": "Storytelling.",
+        "background_text": "Storytelling.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is your most marked characteristic?",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "order": 20,
+    "slug": "valued_human_qualities",
+    "question": "Качества, которые Вы больше всего цените в человеке?",
+    "category": "identity",
+    "active": true,
+    "answer_count": 8,
+    "answers": [
+      {
+        "id": 33,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Ум, чувство морали.",
+        "background_text": "Ум, чувство морали.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Качества, которые Вы больше всего цените в мужчине?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      },
+      {
+        "id": 34,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Нежность, естественность, ум.",
+        "background_text": "Нежность, естественность, ум.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Качества, которые Вы больше всего цените в женщине?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      },
+      {
+        "id": 35,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Женственное обаяние.",
+        "background_text": "Женственное обаяние.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "Качества, которые Вы больше всего цените в мужчине?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      },
+      {
+        "id": 36,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Добродетели мужчины и искренность в дружбе.",
+        "background_text": "Добродетели мужчины и искренность в дружбе.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "Качества, которые Вы больше всего цените в женщине?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      },
+      {
+        "id": 63,
+        "author": "Donatella Versace",
+        "answer_text": "Charm and a good body.",
+        "background_text": "Charm and a good body.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is the quality you most like in a man?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      },
+      {
+        "id": 64,
+        "author": "Donatella Versace",
+        "answer_text": "Strength and power.",
+        "background_text": "Strength and power.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is the quality you most like in a woman?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      },
+      {
+        "id": 74,
+        "author": "Olivia de Havilland",
+        "answer_text": "Clear-sightedness, humor, fairness, fidelity to purpose.",
+        "background_text": "Clear-sightedness, humor, fairness, fidelity to purpose.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is the quality you most like in a man?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      },
+      {
+        "id": 75,
+        "author": "Olivia de Havilland",
+        "answer_text": "Thoughtfulness.",
+        "background_text": "Thoughtfulness.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What is the quality you most like in a woman?",
+        "source_note": "Сведено в объединенный вопрос про качества в человеке.",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "order": 21,
+    "slug": "greatest_misfortune",
+    "question": "Что Вы считаете самым большим несчастьем?",
+    "category": "deep",
+    "active": true,
+    "answer_count": 5,
+    "answers": [
+      {
+        "id": 37,
+        "author": "Marcel Proust, 16",
+        "answer_text": "Быть в разлуке с мамой.",
+        "background_text": "Быть в разлуке с мамой.",
+        "language": "ru",
+        "source": "Анкета Пруста N1",
+        "source_question": "Ваша идея о несчастье?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 38,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Никогда не знать мою маму или бабушку.",
+        "background_text": "Никогда не знать мою маму или бабушку.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 43,
+        "author": "Yayoi Kusama",
+        "answer_text": "War. My childhood was a miserable one in the days of war. Art has always been my hope and support.",
+        "background_text": "War. My childhood was a miserable one in the days of war. Art has always been my hope and support.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What do you regard as the lowest depth of misery?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 53,
+        "author": "Cyndi Lauper",
+        "answer_text": "Losing my voice.",
+        "background_text": "Losing my voice.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What do you regard as the lowest depth of misery?",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 90,
+        "author": "Baz Luhrmann",
+        "answer_text": "To be unloved and lonely.",
+        "background_text": "To be unloved and lonely.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "What do you regard as the lowest depth of misery?",
+        "source_note": "",
+        "use_in_background": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "order": 22,
+    "slug": "desired_death",
+    "question": "Как Вы хотели бы умереть?",
+    "category": "deep",
+    "active": true,
+    "answer_count": 4,
+    "answers": [
+      {
+        "id": 39,
+        "author": "Marcel Proust, 19",
+        "answer_text": "Став лучше, чем я теперь, и любимым.",
+        "background_text": "Став лучше, чем я теперь, и любимым.",
+        "language": "ru",
+        "source": "Анкета Пруста N2",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 48,
+        "author": "Yayoi Kusama",
+        "answer_text": "I would like to die in a way that my art would inspire the generations after. I would like to live till the end of my life in this world filled with endless love and prayers. I am trying to communicate with people through my work in order that they continue to appreciate my art even after I am gone.",
+        "background_text": "I would like to die in a way that my art would inspire the generations after. I would like to live till the end of my life in this world filled with endless love and prayers. I am trying to communicate with people through my work in order that they continue to appreciate my art even after I am gone.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 70,
+        "author": "Donatella Versace",
+        "answer_text": "Without me knowing it.",
+        "background_text": "Without me knowing it.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "",
+        "use_in_background": true
+      },
+      {
+        "id": 77,
+        "author": "Olivia de Havilland",
+        "answer_text": "I would prefer to live forever in perfect health.",
+        "background_text": "I would prefer to live forever in perfect health.",
+        "language": "en",
+        "source": "Vanity Fair Proust Questionnaire",
+        "source_question": "",
+        "source_note": "Сокращено для фонового использования.",
+        "use_in_background": true
+      }
+    ]
+  }
+]

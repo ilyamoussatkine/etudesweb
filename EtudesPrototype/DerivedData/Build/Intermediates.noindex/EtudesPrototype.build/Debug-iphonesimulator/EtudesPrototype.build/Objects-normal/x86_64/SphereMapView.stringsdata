@@ -1,0 +1,40 @@
+{
+  "source": "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/SphereMapView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Создать сферу",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Карта",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "Оптическое поле сфер",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 108
+        }
+      }
+    ]
+  },
+  "version": 1
+}

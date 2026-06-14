@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  title: Proust Questionnaire API
+  version: 1.0.0
+
+paths:
+  /submissions:
+    options:
+      summary: CORS preflight
+      operationId: optionsSubmissions
+      x-yc-apigateway-integration:
+        type: cloud_functions
+        function_id: FUNCTION_ID
+        service_account_id: SERVICE_ACCOUNT_ID
+        payload_format_version: "1.0"
+    post:
+      summary: Save questionnaire submission
+      operationId: createSubmission
+      x-yc-apigateway-integration:
+        type: cloud_functions
+        function_id: FUNCTION_ID
+        service_account_id: SERVICE_ACCOUNT_ID
+        payload_format_version: "1.0"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [nickname, mode, answers]
+              properties:
+                nickname:
+                  type: string
+                mode:
+                  type: string
+                  enum: [short, full]
+                answers:
+                  type: object
+                  additionalProperties:
+                    type: string
+      responses:
+        "201":
+          description: Created
+
+  /results:
+    options:
+      summary: CORS preflight
+      operationId: optionsResults
+      x-yc-apigateway-integration:
+        type: cloud_functions
+        function_id: FUNCTION_ID
+        service_account_id: SERVICE_ACCOUNT_ID
+        payload_format_version: "1.0"
+    get:
+      summary: Get questionnaire results
+      operationId: getResults
+      x-yc-apigateway-integration:
+        type: cloud_functions
+        function_id: FUNCTION_ID
+        service_account_id: SERVICE_ACCOUNT_ID
+        payload_format_version: "1.0"
+      responses:
+        "200":
+          description: Results

@@ -1,0 +1,200 @@
+{
+  "source": "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/ProustPracticeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Практики",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Практика 1",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "Анкета Пруста",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Короткий салонный портрет: несколько вопросов, немного тишины и общая стена ответов.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ваш девиз?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "Вопросы из веб-версии перенесены в нативную практику Этюдов.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Marcel",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Proust",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld / %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 205
+        }
+      },
+      {
+        "comment": "",
+        "key": "Анкета",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 198
+        }
+      },
+      {
+        "comment": "",
+        "key": "Вопрос %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 224
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ваш ответ",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 243
+        }
+      },
+      {
+        "comment": "",
+        "key": "Завершить",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 280
+        }
+      },
+      {
+        "comment": "",
+        "key": "Дальше",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 280
+        }
+      },
+      {
+        "comment": "",
+        "key": "Почти готово",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 299
+        }
+      },
+      {
+        "comment": "",
+        "key": "Покажем общую стену ответов?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "Введите псевдоним. Ответы сохранятся на этом устройстве и будут видны в результатах без настоящего имени.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 308
+        }
+      },
+      {
+        "comment": "",
+        "key": "Я согласен отправить ответы в общую анонимизированную стену.",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "Псевдоним",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 314
+        }
+      },
+      {
+        "comment": "",
+        "key": "Аврора",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "Отправить и смотреть",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 338
+        }
+      },
+      {
+        "comment": "",
+        "key": "Еще раз",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "Общая стена",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 361
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ответы участников",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 366
+        }
+      }
+    ]
+  },
+  "version": 1
+}

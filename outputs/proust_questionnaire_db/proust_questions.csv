@@ -1,0 +1,23 @@
+id,order,slug,question,category,active,answer_count
+1,1,motto,Ваш девиз?,opening,true,5
+2,2,current_state,Ваше состояние духа в настоящий момент?,opening,true,5
+3,3,favorite_color,Ваш любимый цвет?,taste,true,2
+4,4,favorite_occupation,Какое Ваше любимое занятие?,taste,true,5
+5,5,desired_ability,"Способность, которой вам хотелось бы обладать?",aspiration,true,6
+6,6,desired_self,Каким Вы хотели бы быть?,aspiration,true,2
+7,7,dream_of_happiness,Какова Ваша мечта о счастье?,values,true,6
+8,8,friends_qualities,Что Вы больше всего цените в Ваших друзьях?,values,true,3
+9,9,favorite_writers,Ваши любимые писатели?,culture,true,5
+10,10,favorite_poets,Ваши любимые поэты?,culture,true,2
+11,11,favorite_literary_hero,Любимый литературный герой?,culture,true,6
+12,12,favorite_composers,Любимые композиторы?,culture,true,2
+13,13,favorite_artists,Любимые художники?,culture,true,2
+14,14,real_life_heroes,Любимые герои в реальной жизни?,culture,true,4
+15,15,favorite_names,Любимые имена?,culture,true,5
+16,16,forgiven_vices,К каким порокам Вы чувствуете наибольшее снисхождение?,values,true,2
+17,17,most_hated,Что Вы больше всего ненавидите?,shadow,true,6
+18,18,main_flaw,Что является Вашим главным недостатком?,shadow,true,1
+19,19,main_trait,Ваша самая характерная черта?,identity,true,4
+20,20,valued_human_qualities,"Качества, которые Вы больше всего цените в человеке?",identity,true,8
+21,21,greatest_misfortune,Что Вы считаете самым большим несчастьем?,deep,true,5
+22,22,desired_death,Как Вы хотели бы умереть?,deep,true,4

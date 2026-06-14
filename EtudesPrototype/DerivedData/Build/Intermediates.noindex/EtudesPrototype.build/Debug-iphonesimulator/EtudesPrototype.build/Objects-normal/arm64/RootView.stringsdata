@@ -1,0 +1,32 @@
+{
+  "source": "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/RootView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Карта",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 8
+        }
+      },
+      {
+        "comment": "",
+        "key": "Практики",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Профиль",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 26
+        }
+      }
+    ]
+  },
+  "version": 1
+}

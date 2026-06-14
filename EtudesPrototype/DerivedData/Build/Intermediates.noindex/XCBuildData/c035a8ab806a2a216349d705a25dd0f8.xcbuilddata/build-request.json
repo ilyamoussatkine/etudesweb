@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "4579d1fb3dd8dd66027c6e96c27b88f0be83036ef7ecca670ad7c1fcdfbfb999"
+    }
+  ],
+  "containerPath" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGNING_ALLOWED" : "NO",
+          "SDKROOT" : "iphonesimulator26.5"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

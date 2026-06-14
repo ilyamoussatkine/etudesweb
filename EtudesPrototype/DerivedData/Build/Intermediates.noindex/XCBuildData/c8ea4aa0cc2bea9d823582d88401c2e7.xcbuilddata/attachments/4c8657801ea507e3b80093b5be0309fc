@@ -1,0 +1,69 @@
+{
+  "" : {
+    "diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototype-primary.dia",
+    "emit-module-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototype-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototype-primary-emit-module.dia",
+    "pch" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototype-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototype-primary.swiftdeps"
+  },
+  "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/CreateSphereView.swift" : {
+    "const-values" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView.swiftconstvalues",
+    "dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView.d",
+    "diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView.dia",
+    "index-unit-output-path" : "/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView.o",
+    "llvm-bc" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView.bc",
+    "object" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView.o",
+    "swift-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView.swiftdeps",
+    "swiftmodule" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/CreateSphereView~partial.swiftmodule"
+  },
+  "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/EtudesPalette.swift" : {
+    "const-values" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette.swiftconstvalues",
+    "dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette.d",
+    "diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette.dia",
+    "index-unit-output-path" : "/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette.o",
+    "llvm-bc" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette.bc",
+    "object" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette.o",
+    "swift-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette.swiftdeps",
+    "swiftmodule" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPalette~partial.swiftmodule"
+  },
+  "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/EtudesPrototypeApp.swift" : {
+    "const-values" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp.swiftconstvalues",
+    "dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp.d",
+    "diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp.dia",
+    "index-unit-output-path" : "/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp.o",
+    "llvm-bc" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp.bc",
+    "object" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp.o",
+    "swift-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp.swiftdeps",
+    "swiftmodule" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/EtudesPrototypeApp~partial.swiftmodule"
+  },
+  "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/RootView.swift" : {
+    "const-values" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView.swiftconstvalues",
+    "dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView.d",
+    "diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView.dia",
+    "index-unit-output-path" : "/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView.o",
+    "llvm-bc" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView.bc",
+    "object" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView.o",
+    "swift-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView.swiftdeps",
+    "swiftmodule" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/RootView~partial.swiftmodule"
+  },
+  "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/Sphere.swift" : {
+    "const-values" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere.swiftconstvalues",
+    "dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere.d",
+    "diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere.dia",
+    "index-unit-output-path" : "/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere.o",
+    "llvm-bc" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere.bc",
+    "object" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere.o",
+    "swift-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere.swiftdeps",
+    "swiftmodule" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/Sphere~partial.swiftmodule"
+  },
+  "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/EtudesPrototype/SphereMapView.swift" : {
+    "const-values" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView.swiftconstvalues",
+    "dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView.d",
+    "diagnostics" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView.dia",
+    "index-unit-output-path" : "/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView.o",
+    "llvm-bc" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView.bc",
+    "object" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView.o",
+    "swift-dependencies" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView.swiftdeps",
+    "swiftmodule" : "/Users/ilamusatkin/Desktop/магистратура/Swift/Etudes/EtudesPrototype/DerivedData/Build/Intermediates.noindex/EtudesPrototype.build/Debug-iphonesimulator/EtudesPrototype.build/Objects-normal/arm64/SphereMapView~partial.swiftmodule"
+  }
+}
