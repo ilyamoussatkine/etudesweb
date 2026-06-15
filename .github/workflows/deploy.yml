@@ -1,0 +1,86 @@
+name: Deploy Proust web to Yandex Object Storage
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+
+    env:
+      AWS_DEFAULT_REGION: ru-central1
+      YC_ENDPOINT_URL: https://storage.yandexcloud.net
+      SITE_DIR: proust-web
+      BUCKET_NAME: ${{ vars.YC_BUCKET_NAME }}
+      PROUST_API_URL: ${{ vars.PROUST_API_URL }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate deployment variables
+        shell: bash
+        run: |
+          test -n "$BUCKET_NAME" || (echo "Missing environment variable YC_BUCKET_NAME"; exit 1)
+          test -n "${{ secrets.YC_STORAGE_ACCESS_KEY_ID }}" || (echo "Missing secret YC_STORAGE_ACCESS_KEY_ID"; exit 1)
+          test -n "${{ secrets.YC_STORAGE_SECRET_ACCESS_KEY }}" || (echo "Missing secret YC_STORAGE_SECRET_ACCESS_KEY"; exit 1)
+
+      - name: Generate runtime config
+        shell: bash
+        run: |
+          printf 'window.PROUST_API_URL = "%s";\n' "$PROUST_API_URL" > "$SITE_DIR/config.js"
+          printf '{"version":"%s","commit":"%s"}\n' "$(date -u +%Y-%m-%d).${GITHUB_RUN_NUMBER}" "$GITHUB_SHA" > "$SITE_DIR/version.json"
+
+      - name: Configure AWS CLI for Yandex Object Storage
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_STORAGE_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_STORAGE_SECRET_ACCESS_KEY }}
+        run: aws --version
+
+      - name: Upload static assets
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_STORAGE_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_STORAGE_SECRET_ACCESS_KEY }}
+        shell: bash
+        run: |
+          aws s3 sync "$SITE_DIR/" "s3://$BUCKET_NAME/" \
+            --endpoint-url "$YC_ENDPOINT_URL" \
+            --delete \
+            --exclude "index.html" \
+            --exclude "config.js" \
+            --exclude "version.json" \
+            --exclude "screenshots/*" \
+            --cache-control "public, max-age=86400"
+
+      - name: Upload entry files without cache
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_STORAGE_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_STORAGE_SECRET_ACCESS_KEY }}
+        shell: bash
+        run: |
+          aws s3 cp "$SITE_DIR/index.html" "s3://$BUCKET_NAME/index.html" \
+            --endpoint-url "$YC_ENDPOINT_URL" \
+            --cache-control "no-store, no-cache, must-revalidate, max-age=0" \
+            --content-type "text/html; charset=utf-8"
+
+          aws s3 cp "$SITE_DIR/config.js" "s3://$BUCKET_NAME/config.js" \
+            --endpoint-url "$YC_ENDPOINT_URL" \
+            --cache-control "no-store, no-cache, must-revalidate, max-age=0" \
+            --content-type "application/javascript; charset=utf-8"
+
+          aws s3 cp "$SITE_DIR/version.json" "s3://$BUCKET_NAME/version.json" \
+            --endpoint-url "$YC_ENDPOINT_URL" \
+            --cache-control "no-store, no-cache, must-revalidate, max-age=0" \
+            --content-type "application/json; charset=utf-8"
+
+      - name: Verify website entrypoint
+        shell: bash
+        run: |
+          SITE_URL="https://${BUCKET_NAME}.website.yandexcloud.net"
+          HTTP_STATUS="$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL")"
+          echo "$SITE_URL -> $HTTP_STATUS"
+          test "$HTTP_STATUS" = "200" || (echo "Website endpoint did not return 200"; exit 1)
