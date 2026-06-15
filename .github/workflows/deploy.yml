@@ -32,8 +32,10 @@ jobs:
       - name: Generate runtime config
         shell: bash
         run: |
+          APP_VERSION="$(date -u +%Y-%m-%d).${GITHUB_RUN_NUMBER}.${GITHUB_SHA::7}"
           printf 'window.PROUST_API_URL = "%s";\n' "$PROUST_API_URL" > "$SITE_DIR/config.js"
-          printf '{"version":"%s","commit":"%s"}\n' "$(date -u +%Y-%m-%d).${GITHUB_RUN_NUMBER}" "$GITHUB_SHA" > "$SITE_DIR/version.json"
+          sed -i "s/__APP_VERSION__/$APP_VERSION/g" "$SITE_DIR/index.html"
+          printf '{"version":"%s","commit":"%s"}\n' "$APP_VERSION" "$GITHUB_SHA" > "$SITE_DIR/version.json"
 
       - name: Configure AWS CLI for Yandex Object Storage
         env:
@@ -54,7 +56,7 @@ jobs:
             --exclude "config.js" \
             --exclude "version.json" \
             --exclude "screenshots/*" \
-            --cache-control "public, max-age=86400"
+            --cache-control "no-cache, max-age=0"
 
       - name: Upload entry files without cache
         env:
