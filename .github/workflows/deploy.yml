@@ -16,7 +16,7 @@ jobs:
       YC_ENDPOINT_URL: https://storage.yandexcloud.net
       SITE_DIR: proust-web
       BUCKET_NAME: ${{ vars.YC_BUCKET_NAME }}
-      PROUST_API_URL: ${{ vars.PROUST_API_URL }}
+      PROUST_API_URL: ""
 
     steps:
       - name: Checkout
