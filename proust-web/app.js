@@ -10,13 +10,6 @@ let activeIndex = 0;
 let draftAnswers = {};
 let mode = "short";
 
-const coreShortSlugs = [
-  "motto",
-  "current_state",
-  "dream_of_happiness",
-  "friends_qualities",
-];
-
 const sampleNames = ["Аврора", "Соня", "Марк", "Лев", "Ника", "Ася"];
 
 init();
@@ -95,11 +88,11 @@ function renderIntro() {
       <div class="hero-copy">
         <img class="brand-logo" src="./assets/etudes_logo_transparent.png" alt="Этюды" />
         <h1>Анкета Пруста</h1>
-        <p class="lead">получи короткий салонный портрет с помощью салонной анкеты belle epoque</p>
+        <p class="lead">составь короткий портрет с помощью салонной анкеты belle epoque</p>
         <div class="hero-actions" aria-label="Выбор версии опросника">
           <button class="choice primary" data-mode="short">
             <span>Короткая версия</span>
-            <small>6 вопросов</small>
+            <small>6 случайных вопросов</small>
           </button>
           <button class="choice" data-mode="full">
             <span>Полная версия</span>
@@ -129,12 +122,9 @@ function startSurvey(nextMode) {
 }
 
 function buildShortQuestions() {
-  const core = coreShortSlugs
-    .map((slug) => questions.find((question) => question.slug === slug))
-    .filter(Boolean);
-  const randomPool = questions.filter((question) => !coreShortSlugs.includes(question.slug));
+  const randomPool = questions.slice();
   shuffle(randomPool);
-  return [...core, ...randomPool.slice(0, 2)].sort((a, b) => a.order - b.order);
+  return randomPool.slice(0, 6).sort((a, b) => a.order - b.order);
 }
 
 function renderQuestion() {

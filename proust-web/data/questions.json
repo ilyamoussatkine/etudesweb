@@ -3,7 +3,7 @@
     "id": 1,
     "order": 1,
     "slug": "motto",
-    "question": "Ваш девиз?",
+    "question": "Ваш девиз / любимое изречение?",
     "category": "opening",
     "active": true,
     "answer_count": 5,
