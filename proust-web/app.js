@@ -1,5 +1,6 @@
 const app = document.querySelector("#app");
 const STORAGE_KEY = "etudes_proust_submissions_v1";
+const DRAFT_KEY = "etudes_proust_draft_v1";
 const API_URL = String(window.PROUST_API_URL || "").replace(/\/$/, "");
 
 let questions = [];
@@ -92,9 +93,9 @@ function renderIntro() {
   app.innerHTML = `
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Этюды представляют</p>
+        <img class="brand-logo" src="./assets/etudes_logo_transparent.png" alt="Этюды" />
         <h1>Анкета Пруста</h1>
-        <p class="lead">Короткий салонный портрет: несколько вопросов, немного тишины и общая стена ответов.</p>
+        <p class="lead">получи короткий салонный портрет с помощью салонной анкеты belle epoque</p>
         <div class="hero-actions" aria-label="Выбор версии опросника">
           <button class="choice primary" data-mode="short">
             <span>Короткая версия</span>
@@ -147,35 +148,36 @@ function renderQuestion() {
         <button class="ghost-button" data-action="home" aria-label="На первый экран">Анкета</button>
         <span class="progress">${progress}</span>
       </header>
-      <article class="question-card">
+      <article class="question-card question-card--answering">
         <p class="question-index">Вопрос ${activeIndex + 1}</p>
         <h2>${escapeHtml(question.question)}</h2>
+        <form class="answer-form">
+          <label class="sr-only" for="answer">Ваш ответ</label>
+          <textarea class="inline-answer" id="answer" rows="3" autocomplete="off" autocapitalize="sentences" placeholder="Ваш ответ">${escapeHtml(draftAnswers[question.slug] ?? "")}</textarea>
+          <div class="nav-row">
+            ${activeIndex > 0 ? `<button class="back-button" type="button" data-action="prev">Назад</button>` : "<span></span>"}
+            <button class="next-button" type="submit">
+              <span>${activeIndex === activeQuestions.length - 1 ? "Завершить" : "Дальше"}</span>
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </form>
       </article>
-      <form class="answer-dock">
-        <div class="composer">
-          <label for="answer">Ваш ответ</label>
-          <textarea id="answer" rows="3" autocomplete="off" autocapitalize="sentences" placeholder="Напишите ответ">${escapeHtml(draftAnswers[question.slug] ?? "")}</textarea>
-        </div>
-        <div class="nav-row">
-          <button class="round-button" type="button" data-action="prev" aria-label="Предыдущий вопрос">‹</button>
-          <button class="next-button" type="submit">
-            <span>${activeIndex === activeQuestions.length - 1 ? "Завершить" : "Дальше"}</span>
-            <span aria-hidden="true">→</span>
-          </button>
-        </div>
-      </form>
     </section>
   `;
 
   app.querySelector("[data-action='home']").addEventListener("click", renderIntro);
-  app.querySelector("[data-action='prev']").addEventListener("click", () => {
-    saveCurrentAnswer(question.slug);
-    if (activeIndex > 0) {
-      activeIndex -= 1;
-      renderQuestion();
-    }
-  });
-  app.querySelector(".answer-dock").addEventListener("submit", (event) => {
+  const prevButton = app.querySelector("[data-action='prev']");
+  if (prevButton) {
+    prevButton.addEventListener("click", () => {
+      saveCurrentAnswer(question.slug);
+      if (activeIndex > 0) {
+        activeIndex -= 1;
+        renderQuestion();
+      }
+    });
+  }
+  app.querySelector(".answer-form").addEventListener("submit", (event) => {
     event.preventDefault();
     saveCurrentAnswer(question.slug);
     if (activeIndex < activeQuestions.length - 1) {
@@ -195,6 +197,7 @@ function saveCurrentAnswer(slug) {
   const textarea = app.querySelector("textarea");
   if (!textarea) return;
   draftAnswers[slug] = textarea.value.trim();
+  saveDraft();
 }
 
 function renderConsent() {
@@ -203,18 +206,17 @@ function renderConsent() {
     <section class="consent-card">
       <p class="eyebrow">Почти готово</p>
       <h2>Покажем общую стену ответов?</h2>
-      <p class="consent-copy">Введите псевдоним. Ответы сохранятся на этом устройстве и будут видны в результатах без настоящего имени.</p>
+      <p class="consent-copy">Введите псевдоним, если хотите добавить ответы в общую анонимизированную стену. Можно отказаться от публикации и посмотреть только свой портрет.</p>
       <form class="consent-form">
         <label for="nickname">Псевдоним</label>
-        <input id="nickname" name="nickname" type="text" maxlength="32" placeholder="${sampleNames[Math.floor(Math.random() * sampleNames.length)]}" required />
-        <label class="check-row">
-          <input type="checkbox" name="agree" required />
-          <span>Я согласен отправить ответы в общую анонимизированную стену.</span>
-        </label>
-        <button class="next-button wide" type="submit">
-          <span>Отправить и смотреть</span>
-          <span aria-hidden="true">→</span>
-        </button>
+        <input id="nickname" name="nickname" type="text" maxlength="32" placeholder="${sampleNames[Math.floor(Math.random() * sampleNames.length)]}" />
+        <div class="consent-actions">
+          <button class="next-button wide" type="submit">
+            <span>Отправить и смотреть</span>
+            <span aria-hidden="true">→</span>
+          </button>
+          <button class="secondary-button" type="button" data-action="private-results">Не публиковать</button>
+        </div>
       </form>
     </section>
   `;
@@ -233,6 +235,9 @@ function renderConsent() {
       button.querySelector("span").textContent = "Отправить и смотреть";
       showConsentError(error.message);
     }
+  });
+  app.querySelector("[data-action='private-results']").addEventListener("click", () => {
+    renderPersonalResults();
   });
 }
 
@@ -264,7 +269,7 @@ async function saveSubmission(nickname) {
     return;
   }
 
-  const submissions = getSubmissions();
+  const submissions = await getSubmissions();
   submissions.unshift({
     id: crypto.randomUUID(),
     nickname,
@@ -273,6 +278,7 @@ async function saveSubmission(nickname) {
     answers: payload.answers,
   });
   localStorage.setItem(STORAGE_KEY, JSON.stringify(submissions));
+  sessionStorage.removeItem(DRAFT_KEY);
 }
 
 async function renderResults() {
@@ -300,6 +306,43 @@ async function renderResults() {
       button.remove();
     });
   });
+}
+
+function renderPersonalResults() {
+  const answers = Object.fromEntries(Object.entries(draftAnswers).filter(([, value]) => value));
+  app.className = "app results-screen personal-results-screen";
+  app.innerHTML = `
+    <section class="results-layout">
+      <header class="results-header">
+        <div>
+          <p class="eyebrow">Личный портрет</p>
+          <h2>Ваши ответы</h2>
+        </div>
+        <button class="ghost-button" data-action="finish">Завершить</button>
+      </header>
+      <div class="results-list">
+        ${questions.map((question) => renderPersonalResultGroup(question, answers)).join("")}
+      </div>
+    </section>
+  `;
+  sessionStorage.removeItem(DRAFT_KEY);
+  app.querySelector("[data-action='finish']").addEventListener("click", renderIntro);
+}
+
+function renderPersonalResultGroup(question, answers) {
+  const answer = answers[question.slug];
+  if (!answer) return "";
+  return `
+    <article class="result-group">
+      <h3>${escapeHtml(question.question)}</h3>
+      <ul>
+        <li>
+          <span class="result-name">Вы</span>
+          <p>${escapeHtml(answer)}</p>
+        </li>
+      </ul>
+    </article>
+  `;
 }
 
 function renderResultGroup(question, submissions) {
@@ -350,7 +393,8 @@ async function getSubmissions() {
   }
 
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+    const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+    return Array.isArray(data) ? data : [];
   } catch {
     return [];
   }
@@ -358,7 +402,15 @@ async function getSubmissions() {
 
 function autosizeTextarea(textarea) {
   textarea.style.height = "auto";
-  textarea.style.height = `${Math.min(textarea.scrollHeight, Math.round(window.innerHeight * 0.2))}px`;
+  textarea.style.height = `${Math.min(textarea.scrollHeight, Math.round(window.innerHeight * 0.28))}px`;
+}
+
+function saveDraft() {
+  sessionStorage.setItem(DRAFT_KEY, JSON.stringify({
+    mode,
+    activeIndex,
+    answers: draftAnswers,
+  }));
 }
 
 function shuffle(items) {
