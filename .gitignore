@@ -2,6 +2,7 @@ node_modules/
 .env
 .env.local
 *.local.js
+*.zip
 .DS_Store
 dist/
 build/
